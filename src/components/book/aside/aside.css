@@ -1,0 +1,62 @@
+.mod-tit1 {
+    font-size: 20px!important;
+    height: 22px;
+    line-height: 22px;
+    border-bottom: 1px dotted #c8c8c8;
+    padding-bottom: 14px;
+}
+.ly-mt30 {
+    margin-top: 30px;
+}
+.book-reward {
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    padding: 16px 0 26px;
+    text-align: center;
+}
+.book-reward .smile {
+    background: url("http://www.hbooker.com/resources/images/smile-bg.png") no-repeat center 20px;
+    height: 73px;
+}
+.book-reward button {
+    border-radius: 2px;
+    width: 208px;
+    height: 40px;
+    background: #ed5565;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto 10px;
+    cursor: pointer;
+}
+.book-reward button {
+    border-radius: 2px;
+    width: 208px;
+    height: 40px;
+    background: #ed5565;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto 10px;
+    cursor: pointer;
+}
+.book-reward button:last-child {
+    margin: 0 auto;
+}
+.book-reward button.btn-primary {
+    background: #4acbff;
+}
+.mod-tit1 h3 i {
+    display: inline-block;
+    width: 8px;
+    height: 22px;
+    background: #4fc1e9;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.box-shadow {
+    box-shadow: 0 0 3px #dcdcdc!important;
+}
+

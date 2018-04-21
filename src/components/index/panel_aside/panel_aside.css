@@ -1,0 +1,21 @@
+.big-event div{
+    margin-bottom: 16px;
+}
+.panel_aside{
+    margin-top: 27px;
+}
+.recomm-tit{
+    width: 250px;
+    height: 88px;
+    background: url('https://www.hbooker.com/resources/images/recomm-bg.png') no-repeat;
+    margin-top: 30px;
+}
+.recomm-tit h4 {
+    height: 65px;
+    line-height: 65px;
+    padding-top: 23px;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 20px;
+    overflow: hidden;
+}

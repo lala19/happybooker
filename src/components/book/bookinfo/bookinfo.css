@@ -1,0 +1,199 @@
+.book-detail .book-info {
+    display: inline;
+    margin-left: 30px;
+    width: 710px;
+}
+.book-title {
+    height: 30px;
+    line-height: 1;
+}
+.book-detail .book-title h1 {
+    font-size: 28px;
+    float: left;
+    max-width: 510px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.book-detail .book-title p {
+    float: left;
+    color: #969696;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+.book-detail .book-title a {
+    color: #4acbff;
+}
+.book-detail .book-bd {
+    margin-top: 28px;
+}
+.book-detail .act-tab-titles li {
+    float: left;
+    display: inline;
+    height: 40px;
+    margin-right: 5px;
+    line-height: 39px;
+}
+.book-detail .act-tab-titles li a {
+    display: block;
+    border: 1px solid #dedede;
+    border-radius: 6px 6px 0 0;
+    padding: 0 22px;
+    background: #fafafa;
+    color: #969696;
+    font-size: 14px;
+}
+.book-detail .book-bd .selected a {
+    background: #fff;
+    color: #000;
+    border-bottom: none;
+    /* box-shadow: 0px -1px 3px #dcdcdc; */
+}
+.book-detail .book-count li {
+    float: left;
+    display: inline;
+    margin-right: 22px;
+}
+.book-detail .book-bd .selected {
+    line-height: 40px;
+    z-index: 1;
+    /* box-shadow: 0 0 4px #dcdcdc; */
+}
+.book-detail .book-bd .time-update {
+    display: inline-block;
+    line-height: 39px;
+    color: #969696;
+}
+.book-detail .book-cnt {
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    height: 400px;
+    overflow: hidden;
+}
+.book-detail .book-intro {
+    height: 360px;
+    padding: 12px 26px 28px;
+}
+.book-detail .book-intro-cnt {
+    height: 265px;
+}
+.book-detail .book-count {
+    height: 56px;
+    padding: 8px 0 5px;
+    line-height: 26px;
+    overflow: hidden;
+    border-bottom: 1px dotted #c8c8c8;
+    font-size: 14px;
+    color: #969696;
+}
+.ly-fl {
+    float: left;
+}
+.book-detail .book-count li {
+    margin-right: 10px;
+}
+.icon-diamond {
+    font-size: 14px;
+    color: #ed5565;
+}
+.book-detail .book-hbooker {
+    color: #ed5565;
+}
+.book-detail .book-intro-cnt .book-desc {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 12px;
+    /* width: 670px; */
+    height: 183px;
+    overflow: hidden;
+}
+.book-detail .book-tip {
+    font-size: 12px;
+    color: #969696;
+    margin-top: 6px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    border-bottom: 1px dotted #c8c8c8;
+}
+.book-detail .book-author-label {
+    font-size: 14px;
+    margin-top: 20px;
+    overflow: hidden;
+    height: 32px;
+    line-height: 32px;
+}
+.book-detail .book-author-label span {
+    color: #000;
+}
+.book-detail .book-label {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 22px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 14px;
+    margin-left: 2px;
+}
+.book-detail .book-property span {
+    width: 33%;
+}
+.book-detail .book-property span {
+    float: left;
+    width: 25%;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+}
+.book-detail .book-intro-cnt {
+    height: 265px;
+}
+.book-detail .book-author-info {
+    font-size: 14px;
+    line-height: 26px;
+}
+.book-detail .book-author-info ul {
+    height: 236px;
+    overflow: hidden;
+}
+.book-detail .book-author-info li {
+    float: left;
+    width: 33.33%;
+    margin: 18px 0 9px;
+}
+.book-detail .book-author-info li {
+    width: 50%;
+}
+.book-detail .book-author-info li .img {
+    width: 63px;
+    height: 89px;
+    border: 1px solid #dcdcdc;
+}
+.book-detail .book-author-info li .img img {
+    width: 63px;
+    height: 89px;
+}
+.book-detail .book-author-info li .cnt {
+    width: 130px;
+    margin-left: 15px;
+}
+.book-detail .book-author-info li .cnt p {
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.book-detail .book-author-info li .cnt div {
+    margin-top: 12px;
+    color: #969696;
+    line-height: 26px;
+}
+.book-detail .book-author-info li .cnt div p {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;
+}

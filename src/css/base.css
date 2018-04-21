@@ -1,0 +1,499 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+th,
+td {
+  font-weight: 400;
+  font-style: normal;
+  display: table-cell;
+}
+img {
+  border: 0 none;
+  font-size: 10px;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+em {
+  font-style: normal;
+}
+input:focus,
+textarea:focus {
+  outline: 0 none;
+}
+input,
+button,
+textarea,
+select,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-size: 100%;
+  font-weight: 400;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 12px;
+  font-family: 'Microsoft Yahei';
+}
+body {
+  background: #fdfdfd;
+  color: #000;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  outline: none;
+}
+a:hover {
+  color: #ed5565;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+i {
+  font-style: normal;
+}
+s {
+  text-decoration: none;
+}
+.clearfix,
+.ly-wrap,
+.mod-box {
+  zoom: 1;
+}
+.clearfix:after,
+.ly-wrap:after,
+.mod-box:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.ly-fl {
+  float: left;
+}
+.ly-fr {
+  float: right;
+}
+.none {
+  display: none;
+}
+.hide {
+  display: none;
+}
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  background: #fff;
+  height: 50px;
+  line-height: 50px;
+  color: #5a5a5a;
+  border-bottom: 1px solid #e2e2e2;
+  position: relative;
+}
+.header .app-download {
+  height: 50px;
+}
+.header ul li {
+  float: left;
+}
+.header ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  outline: none;
+}
+.header ul .line {
+  margin: 0 10px;
+  color: #c8c8c8;
+}
+.header ul .recharge i {
+  display: inline-block;
+  height: 14px;
+  vertical-align: middle;
+  background: url("https://www.hbooker.com/resources/images/icon-menu-special.png") no-repeat;
+  margin: -2px 7px 0 0;
+  width: 17px;
+  background-position: -15px 0;
+}
+.header ul .author i {
+  display: inline-block;
+  height: 14px;
+  vertical-align: middle;
+  background: url("https://www.hbooker.com/resources/images/icon-menu-special.png") no-repeat;
+  margin: -2px 7px 0 0;
+  width: 14px;
+  background-position: -32px 0;
+}
+.header ul .qq {
+  display: inline-block;
+  width: 23px;
+  height: 22px;
+  background: url('https://www.hbooker.com/resources/images/icon-login-info.png') no-repeat;
+  margin: -2px 8px 0 0;
+  vertical-align: middle;
+  background-position: 0 -22px;
+}
+.header .code {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #ed5565 url("../images/icon-qr-code-min.png") no-repeat center;
+  vertical-align: top;
+  position: relative;
+  z-index: 999;
+  color: #000;
+}
+.banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.banner .header-inner {
+  min-width: 1190px;
+  height: 230px;
+  overflow: hidden;
+  background: url("https://www.hbooker.com/resources/images/header-bg-april-2018.jpg") no-repeat center top #000;
+}
+.banner .txt {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 18px;
+  text-shadow: 0 0 4px #000;
+}
+.banner .logo {
+  margin-top: 22px;
+}
+.overflowhide {
+  overflow: hidden;
+}
+.nav {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  background: #000;
+  opacity: .75;
+}
+.nav ul li {
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+.nav ul li a {
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  padding: 0 24px;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.nav ul li:nth-child(1) .selected {
+  color: #4acbff;
+  border: 1px solid #4acbff;
+  border-radius: 2px;
+}
+.nav ul li:hover a {
+  color: #4acbff;
+  border: 1px solid #4acbff;
+  border-radius: 2px;
+}
+.nav .search-form {
+  margin-top: 24px;
+  display: block;
+  height: 32px;
+  transition: 0.2s background-color;
+  position: relative;
+  border-radius: 17px;
+}
+.nav .search-form input {
+  float: left;
+  width: 245px;
+  color: #969696;
+  overflow: hidden;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 42px 0 18px;
+  border: 0;
+  font-size: 14px;
+  box-shadow: none;
+  border-radius: 17px;
+  background-color: #1e1e1e;
+  border: 1px solid #5D5D5D;
+}
+.nav .search-form input:focus {
+  outline: none;
+  border-color: #4acbff;
+  -webkit-box-shadow: 0 0 3px #4acbff;
+  -moz-box-shadow: 0 0 3px #4acbff;
+  -o-box-shadow: 0 0 3px #4acbff;
+  box-shadow: 0 0 3px #4acbff;
+  -webkit-transition: border linear 0.2s, -webkit-box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, -moz-box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, -o-box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.nav .search-form button {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 42px;
+  min-width: 0;
+  cursor: pointer;
+  height: 35px;
+  background: url("https://www.hbooker.com/resources/images/header-btn-search.png") no-repeat center center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0 17px 17px 0;
+}
+.nav .search-form button:hover {
+  background-color: #2cafe5;
+}
+.navfixed {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  background: url('https://www.hbooker.com/resources/images/header-bg.jpg') no-repeat center bottom #000;
+  opacity: 1;
+}
+.navfixed .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: #000;
+  opacity: .75;
+}
+.navfixed .menu-inner {
+  height: 100%;
+  z-index: 9;
+  position: relative;
+}
+.panel_main {
+  float: left;
+  width: 950px;
+}
+.panel_aside {
+  float: right;
+  width: 250px;
+}
+.fixedright {
+  display: block;
+  position: fixed;
+  right: 12px;
+  bottom: 60px;
+  z-index: 100;
+  width: 95px;
+  height: 180px;
+  background: url('https://www.hbooker.com/resources/images/bg-app-download.png') no-repeat 0;
+}
+.go-top {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 15px;
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  background: url('https://www.hbooker.com/resources/images/go-top.png') #fff no-repeat center;
+  opacity: 0.85;
+}
+.go-top a {
+  display: block;
+  padding: 6px;
+  text-align: center;
+  line-height: 1.2;
+  text-indent: -9999em;
+  height: 28px;
+}
+.swiper-pagination1 {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s opacity;
+  -o-transition: .3s opacity;
+  transition: .3s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+.swiper-pagination2 {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s opacity;
+  -o-transition: .3s opacity;
+  transition: .3s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+.swiper-pagination3 {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s opacity;
+  -o-transition: .3s opacity;
+  transition: .3s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+.swiper-pagination4 {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s opacity;
+  -o-transition: .3s opacity;
+  transition: .3s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+.swiper-pagination5 {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s opacity;
+  -o-transition: .3s opacity;
+  transition: .3s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+.swiper-pagination6 {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s opacity;
+  -o-transition: .3s opacity;
+  transition: .3s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
