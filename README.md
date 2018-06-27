@@ -16,9 +16,9 @@
 输入 `npm start` 命令运行 `react-scripts start`  自动打开 http://localhost:3000 主页面, `node server` 启动服务端占用9000端口;
 数据用nodejs在[官网](https://www.hbooker.com)爬虫 不做任何商业用途只用来学习成果展示和技术研究.
 
-- [Public_Path](https://github.com/CSOneSevenZeroOne/happybooker/tree/master/public)
+- [Public_Path](https://github.com/lala19/happybooker/tree/master/public)
 
-- [Index](https://github.com/CSOneSevenZeroOne/happybooker/tree/master/src/components/index)
+- [Index](https://github.com/lala19/happybooker/tree/master/src/components/index)
 
     |components|path|
     |-|-|
@@ -29,7 +29,7 @@
     |侧边面板|./panel_aside|
     |主面板|./panel_main|
 
-- [Book](https://github.com/CSOneSevenZeroOne/happybooker/tree/master/src/components/book)
+- [Book](https://github.com/lala19/happybooker/tree/master/src/components/book)
 
     |components|path|
     |-|-|
